@@ -1,0 +1,60 @@
+.alive {
+  width: 200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 10px;
+  background-color: #9db784;
+  border-radius: 8px;
+  padding: 10px;
+  border-top: 7px solid #83bb45;
+  border-bottom: 4px solid #83bb45;
+}
+
+.alive:hover {
+  filter: brightness(110%);
+  cursor: pointer;
+}
+
+span {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.alive img {
+  width: 130px;
+}
+
+.dead {
+  width: 200px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 10px;
+  padding: 10px;
+
+  background-color: rgb(99, 51, 51);
+  border-radius: 8px;
+  border-top: 7px solid rgb(97, 22, 22);
+  border-bottom: 4px solid rgb(97, 22, 22);
+}
+
+.dead img {
+  width: 130px;
+}
+
+.title {
+  font-size: 22px;
+  max-width: 200px;
+  max-width: 15ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #000;
+}
